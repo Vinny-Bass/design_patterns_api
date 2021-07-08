@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Jose",
+    "accounts": [
+      {
+        "id": "81656efe-609d-4fdd-99ca-27c1d123c215",
+        "balance": 200,
+        "transfers": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vinicius",
+    "accounts": [
+      {
+        "id": "869be46c-e74d-4d09-8b50-abfda8b783fa",
+        "balance": 20,
+        "transfers": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gustavo",
+    "accounts": []
+  }
+]

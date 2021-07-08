@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Jose",
+    "accounts": [
+      {
+        "id": "85ce2a54-9337-4b28-b142-e29e92a97b6a",
+        "balance": 10,
+        "transfers": []
+      },
+      {
+        "id": "5fb1bb39-3742-4e44-81a5-a3a7ae10270a",
+        "balance": 40,
+        "transfers": []
+      },
+      {
+        "id": "cb0a227a-c65b-47b7-86d1-234ddade4680",
+        "balance": 0,
+        "transfers": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vinicius",
+    "accounts": [
+      {
+        "id": "869be46c-e74d-4d09-8b50-abfda8b783fa",
+        "balance": 20,
+        "transfers": [
+          {
+            "from": "a2c91967-dd11-4846-81f8-f9c51f8cb2e4",
+            "amount": 20,
+            "when": "07/06/2021, 17:37:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gustavo",
+    "accounts": [
+      {
+        "id": "a2c91967-dd11-4846-81f8-f9c51f8cb2e4",
+        "balance": 460,
+        "transfers": [
+          {
+            "to": "869be46c-e74d-4d09-8b50-abfda8b783fa",
+            "amount": 20,
+            "when": "07/06/2021, 17:37:25"
+          },
+          {
+            "to": "de62c047-ad33-4f43-ab36-5e82610361b0",
+            "amount": 20,
+            "when": "07/06/2021, 17:38:14"
+          }
+        ]
+      },
+      {
+        "id": "de62c047-ad33-4f43-ab36-5e82610361b0",
+        "balance": 270,
+        "transfers": [
+          {
+            "from": "a2c91967-dd11-4846-81f8-f9c51f8cb2e4",
+            "amount": 20,
+            "when": "07/06/2021, 17:38:14"
+          }
+        ]
+      }
+    ]
+  }
+]
